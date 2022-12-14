@@ -1,4 +1,21 @@
-body {
-background-color: red;
-color: yellow;
-}
+@import './utils/variables';
+@import './utils/reset';
+@import './utils/container';
+@import './utils/common.scss';
+@import './utils/links';
+@import './utils/title';
+@import './utils/logo';
+@import './utils/hidden';
+@import './utils/section';
+@import './utils/text';
+@import './components/header';
+@import './components/hero';
+@import './components/modal';
+@import './components/privilege';
+@import './components/work';
+@import './components/team';
+@import './components/client';
+@import './components/footer';
+@import './components/portfolio';
+
+    

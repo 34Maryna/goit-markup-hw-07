@@ -75,7 +75,20 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-}   
+} 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }  
   
 /*---HEADER---*/
 .header .container {
@@ -393,19 +406,6 @@ background-color: var(--second-btn-color);
 .privilege {
 padding: 94px 0px;
 }
-.privilege-title {
-position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
-border: 0;
-padding: 0;
-
-white-space: nowrap;
-clip-path: inset(100%);
-clip: rect(0 0 0 0);
-overflow: hidden;
-}
 .list-privilege {
 display: flex;
 column-gap: 30px; 
@@ -548,7 +548,6 @@ align-items: center;
 .client-link {  
 width: 170px;    
 height: 92px;
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-link:not(:last-child) {
 margin-right: 30px;    
@@ -565,8 +564,6 @@ border-radius: 4px;
 background-color: var(--bg-color);
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client-link:focus,
-.client-link:hover,
 .client-item:focus,
 .client-item:hover {
 fill: var(--accent-color);
@@ -600,7 +597,7 @@ margin-bottom: 9px;
 .footer-links {
 font-style: normal;
 color: var(--bg-color);
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-address {
 color: rgba(255, 255, 255, 0.6);    
