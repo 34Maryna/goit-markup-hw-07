@@ -1,4 +1,4 @@
-.list-work {
+.options {
     display: flex;
     column-gap: 30px;
     }
@@ -8,10 +8,10 @@
     .title {
     margin-bottom: 50px;
     }
-    .work-items {
+    .options__items {
     position: relative;    
     }
-    .work-subtitle {
+    .options__subtitle {
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;

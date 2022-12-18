@@ -1,8 +1,4 @@
-.hero {
-    background-color: var(--primary-color);
-    text-align: center;
-    } 
-    .hero-section {
+    .hero {
     max-width: 1600px; 
     height: 600px;
     margin-left: auto;
@@ -12,11 +8,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    background-color: var(--primary-color);
+    text-align: center;
     } 
-    .hero-container {
-    margin-bottom: 0px;
-    }
-    .hero-title {
+    .heading {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -27,7 +23,7 @@
     max-width: 696px; 
     margin: 0px auto;
     }      
-    .hero-btn {
+    .heading__btn {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;

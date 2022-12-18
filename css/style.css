@@ -190,8 +190,6 @@ fill: var(--accent-color);
 .hero {
 background-color: var(--primary-color);
 text-align: center;
-} 
-.hero-section {
 max-width: 1600px; 
 height: 600px;
 margin-left: auto;
@@ -202,9 +200,6 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 } 
-.hero-container {
-margin-bottom: 0px;
-}
 .hero-title {
 font-weight: 900;
 font-size: 44px;
@@ -717,9 +712,6 @@ margin-left: 13px;
 /*---PORTFOLIO---*/
 .bort {
 border-bottom: 1px solid var(--second-border-color);
-}
-.portfolio {
-padding: 94px 0;    
 }
 .element {
 margin-bottom: 50px;

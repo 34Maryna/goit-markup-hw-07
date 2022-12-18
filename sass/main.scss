@@ -1,21 +1,25 @@
+@import './base/common.scss';
+@import './base/reset';
+@import './base/hidden';
+
+@import './components/container';
+@import './components/title';
+@import './components/logo';
+@import './components/section';
+@import './components/text';
+
 @import './utils/variables';
-@import './utils/reset';
-@import './utils/container';
-@import './utils/common.scss';
 @import './utils/links';
-@import './utils/title';
-@import './utils/logo';
-@import './utils/hidden';
-@import './utils/section';
-@import './utils/text';
-@import './components/header';
-@import './components/hero';
-@import './components/modal';
-@import './components/privilege';
-@import './components/work';
-@import './components/team';
-@import './components/client';
-@import './components/footer';
-@import './components/portfolio';
+@import './utils/placeholder';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/modal';
+@import './layout/privilege';
+@import './layout/work';
+@import './layout/team';
+@import './layout/client';
+@import './layout/footer';
+@import './layout/portfolio';
 
     

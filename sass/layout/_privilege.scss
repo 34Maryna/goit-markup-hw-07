@@ -1,27 +1,25 @@
 .privilege {
     padding: 94px 0px;
     }
-    .list-privilege {
+    .details {
     display: flex;
     column-gap: 30px; 
     }
-    .privilege-link {
+    .details__link {
     width: 270px;
     }
-    .privilege-subtitle {
+    .details__subtitle {
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--primary-header-color);    
     margin-bottom: 10px;
     }
-    .privilege-text {
+    .details__text {
     color: var(--second-color);
     }
-    .priv-icons {
-    display: flex;    
-    justify-content: center;
-    align-items: center;
+    .details__icons {
+    @extend %flex-align-justify;
     width: 270px;
     height: 120px;
     background-color: var(--second-bg-color);
