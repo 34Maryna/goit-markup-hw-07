@@ -1,17 +1,17 @@
 .header .container {
     @extend %flex-align;    
     }   
-    .header-logo {
+    .header__header-logo {
     color: var(--logo-color); 
     padding-top: 24px; 
     padding-bottom: 25px;
     display: block;  
     margin-right: 93px;
     }
-    .accent {
+    .header__accent {
     color:var(--accent-color) ;
     }    
-    .current {
+    .navigation__current {
     color: var(--accent-color); 
     } 
     .navigation {

@@ -113,7 +113,7 @@ body {
   justify-content: center;
 }
 
-.header-logo {
+.header__header-logo {
   color: var(--logo-color);
   padding-top: 24px;
   padding-bottom: 25px;
@@ -121,11 +121,11 @@ body {
   margin-right: 93px;
 }
 
-.accent {
+.header__accent {
   color: var(--accent-color);
 }
 
-.current {
+.navigation__current {
   color: var(--accent-color);
 }
 
